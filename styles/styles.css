@@ -10,13 +10,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "OpenSans";
+  font-family: "OpenSans", sans-serif;
   text-decoration: none;
 }
 
 body {
   background-color: #674baf;
-  background-image: url("../images/bg-mobile.svg");
+  background-image: url("../assets/images/bg-mobile.svg");
   background-size: contain;
   background-repeat: no-repeat;
   color: white;
@@ -31,6 +31,9 @@ header {
   width: 7.75rem;
 }
 
+.hero {
+  margin-bottom: 4rem;
+}
 .hero__image {
   width: 100%;
   margin-bottom: 4rem;
@@ -44,6 +47,7 @@ header {
 }
 .hero-text__header {
   margin-bottom: 0.75rem;
+  line-height: 2.4rem;
 }
 .hero-text__paragraph {
   font-size: 0.9375rem;
@@ -52,12 +56,29 @@ header {
   padding: 0.25rem;
 }
 
-.cta {
-  display: flex;
-}
 .cta__structure {
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   background-color: white;
-  padding: 1rem 4rem;
+  padding: 0.5rem 4rem;
   border-radius: 2rem;
   color: #674baf;
+  font-size: 0.75rem;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: center;
+}
+.page-footer__icon-container {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.4rem;
+}
+.page-footer__icon {
+  height: 0.75rem;
 }/*# sourceMappingURL=styles.css.map */
