@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../assets/OpenSans-Regular.woff2") format("woff2"), url("../../assets/OpenSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "OpenSans";
+}
+
+body {
+  background-image: url("../images/bg-mobile.svg");
+  background-color: #674baf;
+}/*# sourceMappingURL=styles.css.map */
