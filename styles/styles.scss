@@ -8,9 +8,58 @@
   margin: 0;
   padding: 0;
   font-family: "OpenSans";
+  text-decoration: none;
 }
 
 body {
-  background-image: url("../images/bg-mobile.svg");
   background-color: $violet;
+  background-image: url("../images/bg-mobile.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  // background-position: center;
+  color: white;
+  padding: 2.5rem;
+}
+
+header {
+  margin-bottom: 3.2rem;
+}
+
+.header-logo {
+  width: 7.75rem;
+}
+
+.hero {
+  &__image {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+}
+
+.hero-text {
+  &__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__header {
+    margin-bottom: 0.75rem;
+  }
+  &__paragraph {
+    font-size: 0.9375rem;
+    line-height: 1.3rem;
+    margin-bottom: 1.5rem;
+    padding: 0.25rem;
+  }
+}
+
+.cta {
+  display: flex;
+  &__structure {
+    background-color: white;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    color: $violet;
+  }
 }
