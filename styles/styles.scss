@@ -19,6 +19,7 @@ body {
   background-repeat: no-repeat;
   color: white;
   padding: 2.5rem;
+  min-height: 100vh;
   @include desktop {
     background-size: cover;
     background-image: url("../assets/images/bg-desktop.svg");
@@ -52,7 +53,6 @@ header {
     @include desktop {
       width: 50%;
       margin: 0;
-      // flex-grow: 1;
       margin-right: 3.75rem;
       max-width: 43.5rem;
     }
@@ -78,7 +78,6 @@ header {
     @include desktop {
       font-size: 2.5rem;
       line-height: 3.75rem;
-      // max-width: 30.4375rem;
     }
   }
   &__paragraph {

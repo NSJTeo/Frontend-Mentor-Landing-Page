@@ -21,6 +21,7 @@ body {
   background-repeat: no-repeat;
   color: white;
   padding: 2.5rem;
+  min-height: 100vh;
 }
 @media (min-width: 27rem) {
   body {
