@@ -97,7 +97,6 @@ header {
     @include desktop {
       font-size: 1.125rem;
       line-height: 1.7rem;
-      // width: 30rem;
     }
   }
 }
@@ -110,6 +109,10 @@ header {
     border-radius: 2rem;
     color: $violet;
     font-size: 0.75rem;
+    &:hover {
+      background-color: $soft-magenta;
+      color: white;
+    }
     @include desktop {
       font-size: 1.125rem;
       line-height: 1.7rem;
@@ -132,6 +135,9 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0.4rem;
+    &:hover {
+      cursor: pointer;
+    }
   }
   &__icon {
     height: 0.75rem;

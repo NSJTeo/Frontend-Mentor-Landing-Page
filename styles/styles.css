@@ -127,6 +127,10 @@ header {
   color: #674baf;
   font-size: 0.75rem;
 }
+.cta__structure:hover {
+  background-color: #e882e8;
+  color: white;
+}
 @media (min-width: 45rem) {
   .cta__structure {
     font-size: 1.125rem;
@@ -152,6 +156,9 @@ header {
   justify-content: center;
   align-items: center;
   margin: 0.4rem;
+}
+.page-footer__icon-container:hover {
+  cursor: pointer;
 }
 .page-footer__icon {
   height: 0.75rem;
