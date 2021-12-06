@@ -24,7 +24,7 @@ body {
   min-height: 100vh;
   padding-top: 2.3875rem;
 }
-@media (min-width: 27rem) {
+@media (min-width: 45rem) {
   body {
     background-size: cover;
     background-image: url("../assets/images/bg-desktop.svg");
@@ -36,7 +36,7 @@ body {
 header {
   margin-bottom: 4.375rem;
 }
-@media (min-width: 27rem) {
+@media (min-width: 45rem) {
   header {
     margin-bottom: 6.5rem;
   }
@@ -45,7 +45,7 @@ header {
 .header-logo {
   width: 7.5rem;
 }
-@media (min-width: 27rem) {
+@media (min-width: 45rem) {
   .header-logo {
     width: 12.5rem;
   }
@@ -54,7 +54,7 @@ header {
 .hero {
   margin-bottom: 4rem;
 }
-@media (min-width: 27rem) {
+@media (min-width: 45rem) {
   .hero {
     display: flex;
     align-items: center;
@@ -66,7 +66,7 @@ header {
   width: 100%;
   margin-bottom: 4rem;
 }
-@media (min-width: 27rem) {
+@media (min-width: 45rem) {
   .hero__image {
     width: 50%;
     margin: 0;
@@ -81,7 +81,7 @@ header {
   flex-direction: column;
   align-items: center;
 }
-@media (min-width: 27rem) {
+@media (min-width: 45rem) {
   .hero-text__container {
     max-width: 31rem;
     text-align: left;
@@ -93,7 +93,7 @@ header {
   line-height: 2.25rem;
   font-size: 1.5rem;
 }
-@media (min-width: 27rem) {
+@media (min-width: 45rem) {
   .hero-text__header {
     font-size: 2.5rem;
     line-height: 3.75rem;
@@ -103,7 +103,7 @@ header {
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
 }
-@media (min-width: 27rem) {
+@media (min-width: 45rem) {
   .hero-text__paragraph {
     font-size: 1.125rem;
     line-height: 1.7rem;
@@ -118,7 +118,7 @@ header {
   color: #674baf;
   font-size: 0.75rem;
 }
-@media (min-width: 27rem) {
+@media (min-width: 45rem) {
   .cta__structure {
     font-size: 1.125rem;
     line-height: 1.7rem;
@@ -129,7 +129,7 @@ header {
   display: flex;
   justify-content: center;
 }
-@media (min-width: 27rem) {
+@media (min-width: 45rem) {
   .page-footer {
     justify-content: flex-end;
   }
